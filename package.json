@@ -1,24 +1,24 @@
 {
-    "name": "winston-common-sentry",
-    "description": "Sentry transport for winston",
-    "repository": "CatTail/winston-common-sentry",
-    "version": "0.0.0",
-    "keywords": [
-        "winston",
-        "transport"
-    ],
-    "files": [
-        "index.js"
-    ],
-    "peerDependencies": {
-        "winston": ">= 0.7.0"
-    },
-    "license": "BSD",
-    "dependencies": {
-        "raven": "^0.8.1",
-        "underscore": "^1.8.3"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    }
+  "name": "winston-common-sentry",
+  "description": "Sentry transport for winston",
+  "repository": "CatTail/winston-common-sentry",
+  "version": "0.1.0",
+  "keywords": [
+    "winston",
+    "transport"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "raven": "^0.8.1",
+    "underscore": "^1.8.3"
+  },
+  "peerDependencies": {
+    "winston": ">= 0.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD"
 }

@@ -67,10 +67,12 @@ Sentry.prototype.log = function (level, message, meta, callback) {
 
     if (level === 'error') {
         if (meta.error && meta.error instanceof Error) {
-            meta.message = message + ': ' + meta.error.message;
+            meta.error.message =
+                message + ': ' + meta.error.message;
             message = meta.error;
             delete meta.error;
         }
+        console.log(message, extra);
         this._sentry.captureError(message, extra, function() {
             callback(null, true);
         });
