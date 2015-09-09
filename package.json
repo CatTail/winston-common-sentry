@@ -1,35 +1,24 @@
 {
-  "name": "winston-sentry",
-  "version": "0.1.0",
-  "description": "Sentry transport for the winston logger.",
-  "main": "sentry-transport.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/guzru/winston-sentry.git"
-  },
-  "dependencies": {
-    "raven": "^0.8.1",
-    "underscore": "1.8.3"
-  },
-  "peerDependencies": {
-    "winston": ">= 0.7.0"
-  },
-  "keywords": [
-    "node",
-    "sentry",
-    "javascript",
-    "logger",
-    "winston"
-  ],
-  "author": "Cristiano Valente",
-  "contributors": [
-    {
-      "name" : "Shahar Kedar",
-      "url" : "https://github.com/shaharke/"
+    "name": "winston-common-sentry",
+    "description": "Sentry transport for winston",
+    "repository": "CatTail/winston-common-sentry",
+    "version": "0.0.0",
+    "keywords": [
+        "winston",
+        "transport"
+    ],
+    "files": [
+        "index.js"
+    ],
+    "peerDependencies": {
+        "winston": ">= 0.7.0"
+    },
+    "license": "BSD",
+    "dependencies": {
+        "raven": "^0.8.1",
+        "underscore": "^1.8.3"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     }
-  ],
-  "license": "BSD"
 }
