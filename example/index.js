@@ -1,5 +1,5 @@
 var winston = require('winston');
-var Sentry = require('winston-common-sentry');
+var Sentry = require('..');
 
 var logger = new winston.Logger({
     transports: [
