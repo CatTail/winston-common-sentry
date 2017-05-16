@@ -2,7 +2,7 @@
   "name": "winston-common-sentry",
   "description": "Sentry transport for winston",
   "repository": "CatTail/winston-common-sentry",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "winston",
     "transport"
